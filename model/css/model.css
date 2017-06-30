@@ -1,0 +1,101 @@
+.navbar .navbar-nav > li > a:hover {
+    color: #C89348;
+}
+@media (max-width: 767px){
+     #Banner {
+        margin-top: 62px;
+    }
+    .floorImg img {
+        width: 549px;
+        height: 898px;
+    }
+    .navbar-nav > li > a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        line-height: 16px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+     #Banner {
+        margin-top: 162px;
+    }
+    .main img {
+       width: 238px;
+       height: 238px;
+   }
+   .floorImg img {
+       width: 345px;
+       height: 565px;
+   }
+}
+@media (min-width: 993px) {
+     .main img {
+        width: 181px;
+        height: 181px;
+    }
+    .floorImg img {
+        width: 263px;
+        height: 430px;
+    }
+}
+.main>div {
+    margin-top: 90px;
+}
+.main li {
+    float: left;
+    margin-left: 2px;
+}
+.panel {
+    text-align: center;
+}
+.floor{
+     background-color: #fff;
+     padding-bottom: 70px;
+     margin-bottom: 20px;
+}
+.floor .container>div:nth-of-type(1)>p {
+    padding-top: 40px;
+    font-size: 23px;
+}
+.floor>div:nth-of-type(1) span {
+     display: inline-block;
+     padding: 10px;
+     margin: 6px 0;
+     background-color: #f3f3f3;
+     cursor: pointer;
+}
+.floor>div:nth-of-type(1) span:hover {
+    background-color: #000;
+    color: #fff;
+}
+.floor>div:nth-of-type(1) .row {
+    margin-bottom: 20px;
+}
+.floorEnd {
+    background-color: #363636;
+    color: #ccc;
+    text-align: center;
+    padding: 30px 0;
+}
+.floorEnd a {
+    color: #ccc;
+}
+.floorEnd a:hover {
+    color: red;
+    text-decoration: none;
+}
+.message {
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+}
+.message>ul{
+    position: absolute;
+    /*width: 2000px;*/
+    left: 0;
+}
+.message>ul>li{
+    float: left;
+    line-height: 40px;
+    margin-right: 20px;
+}
