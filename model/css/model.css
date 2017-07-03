@@ -5,9 +5,13 @@
      #Banner {
         margin-top: 62px;
     }
+    .main img {
+        width: 300px;
+        height: 300px;
+    }
     .floorImg img {
-        width: 344px;
-        height: 466px;
+        width: 178px;
+        height: 290px;
     }
     .navbar-nav > li > a {
         padding-top: 8px;
